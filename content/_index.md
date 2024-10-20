@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      #button:
+      #  text: Download CV
+      #  url: uploads/resume.pdf
     design:
       css_class: dark
       background:
@@ -35,13 +35,13 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        This year, my primary focus is on enhancing the commercial viability of AI Agents (Next-Generation Voice Assistants for devices like smartphones and TVs). My most significant scientific achievement was the acceptance of the NL-ITI publication to the Interspeech 2024 Conference. 
         
-        Please reach out to collaborate 😃
+        In the ClickAgent report, we introduced a novel architecture to address the limitations of MLLMs in accurately locating screen icons. By integrating a specialized UI location model, TinyClick, we significantly improved performance, outperforming other popular AI agents in GUI automation tasks. 
+        
+        Last year, my research had two major focuses. One was on AI safety, we aimed to align LLMs more closely with human and company values. In the NL-ITI publication, we presented an internal representation engineering method, which delivered a notable performance boost on the TruthfulQA benchmark. Additionally, we investigated fine-tuning LLMs for machine translation task, particularly of training data for spoken language understanding (SLU) systems, with the goal of significantly reducing manual data annotation. Our work achieved state-of-the-art results on the multiATIS++ - Multilingual SLU benchmark. Additionally, I identified a vulnerability that LLMs could serve as carriers for hidden messages and invented a method for extracting such covert information.
     design:
-      columns: '1'
+      columns: '2'
   - block: collection
     id: papers
     content:
