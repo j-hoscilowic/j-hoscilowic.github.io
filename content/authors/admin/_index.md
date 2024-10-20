@@ -44,12 +44,12 @@ interests:
   - Multimodal LLMs
 
 education:
-  - area: Industrial PhD [2022-2026]
+  - area: Industrial PhD [In Progress]
     institution: Warsaw University of Technology
     date_start: 2022-10-01
     date_end: 2026-06-10
     summary: |
-      Industrial Phd focused on AI Agents, Multimodal LLMs, SLU and Voice Assistants.
+      Industrial Phd focused on AI Agents, LLMs and Voice Assistants.
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -105,4 +105,4 @@ awards:
 
 ## About Me
 
-Jakub Hoscilowicz leads a team of researchers at Samsung R&D Poland, focused on developing AI agents that operate on user devices. His other research interests include multimodal LLMs and AI safety & security. Jakub's work addresses industrial challenges, driven by his passion for inventing smart solutions to key production problems.
+I lead a team of researchers at Samsung R&D Poland, focused on developing AI Agents for devices such as smartphones. My research interests also include Multimodal LLMs and AI Safety & Security. I am driven by a passion for creating smart solutions that tackle key production challenges.
