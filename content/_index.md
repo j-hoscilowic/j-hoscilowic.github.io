@@ -37,11 +37,11 @@ sections:
       text: |-
         This year, my primary focus is on enhancing the commercial viability of AI Agents (Next-Generation Voice Assistants for devices like smartphones and TVs). My most significant scientific achievement was the acceptance of the NL-ITI publication to the Interspeech 2024 Conference. 
         
-        In the ClickAgent report, we introduced a novel architecture to address the limitations of MLLMs in accurately locating screen icons. By integrating a specialized UI location model, TinyClick, we significantly improved performance, outperforming other popular AI agents in GUI automation tasks. 
+        In the ClickAgent report, we introduced a novel architecture that addresses the limitations of MLLMs in accurately locating icons on the screen. By integrating a specialized UI location model, TinyClick, we significantly improved performance, outperforming other popular AI Agents in GUI automation tasks. 
         
-        Last year, my research had two major focuses. One was on AI safety, we aimed to align LLMs more closely with human and company values. In the NL-ITI publication, we presented an internal representation engineering method, which delivered a notable performance boost on the TruthfulQA benchmark. Additionally, we investigated fine-tuning LLMs for machine translation task, particularly of training data for spoken language understanding (SLU) systems, with the goal of significantly reducing manual data annotation. Our work achieved state-of-the-art results on the multiATIS++ - Multilingual SLU benchmark. Additionally, I identified a vulnerability that LLMs could serve as carriers for hidden messages and invented a method for extracting such covert information.
+        Last year, my research had two major focuses. One was on AI safety, where we aimed to align LLMs more closely with human and company values. In the NL-ITI publication, we presented an LLM internal representation engineering method, which delivered a notable performance boost on the TruthfulQA benchmark. Additionally, we investigated fine-tuning LLMs for machine translation tasks, particularly of training data for spoken language understanding (SLU) systems, with the goal of significantly reducing need for manual data annotation. Our work achieved state-of-the-art results on the multiATIS++ - Multilingual SLU benchmark. Furthermore, I identified a vulnerability that LLMs could serve as carriers for hidden messages and invented a method for extracting such covert information.
     design:
-      columns: '2'
+      columns: '1'
   - block: collection
     id: papers
     content:
@@ -63,45 +63,45 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     view: article-grid
+  #     columns: 1
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Recent News
+  #     subtitle: ''
+  #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     page_type: post
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: date-title-summary
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
